@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Google</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <style>
+            .pageheader {
+                display: flex;
+                justify-content: flex-end;
+                padding: 10px;
+            }
+            .centerpiece {
+                margin-top: -80px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+            }
+
+            .search_field {
+                width: 380px;
+                height: 20px;
+                border-radius: 10px;
+                padding-left: 25px; 
+            }
+
+            .logo {
+                margin-bottom:-1px
+            }
+        </style>
+        
+    </head>
+    <body>
+        <div class="pageheader">
+            <input type="submit" value="Image Search">
+            <input type="submit" value="Advanced Search">
+        </div>
+        <div class="centerpiece">
+            <div style="text-align: center;">
+                <div class="logo">
+                    <img src="D:\Downloads\logo_Google_FullColor_3x_830x27.max-600x600.format-webp.png" alt="Google" width="320px" height="110px">    
+                <form action="https://www.google.com/search" method="get">
+                    <input type="text" name="q" class="search_field" placeholder="" ><br><br>
+                    <input type="submit" value="Google Search">
+                    <input type="submit" value="I'm Feeling Lucky">
+                </form> 
+            </div>
+        </div>
+        
+        
+    </body>
+</html>
